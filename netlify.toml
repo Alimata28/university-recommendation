@@ -1,0 +1,5 @@
+[build]
+base = "frontend/new-university-recommendation"
+command = "npm run build"
+publish = "frontend/new-university-recommendation/build"
+

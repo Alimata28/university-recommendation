@@ -1,0 +1,25 @@
+.compare-results-page {
+    padding: 20px;
+    text-align: center; 
+    background-image: url('../assets/images/image7.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+  }
+  
+  .comparison-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 20px; 
+  }
+  
+  .university-comparison-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%; 
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
