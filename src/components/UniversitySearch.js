@@ -26,10 +26,11 @@ const UniversitySearch = () => {
           setError('Error while searching for universities');
         }
       };
-
+  
       fetchUniversities();
     }
   }, [department, backendUrl]);
+  
 
   const handleSearch = () => {
     if (universities.length > 0) {
