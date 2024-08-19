@@ -32,8 +32,13 @@ const UniversitySearch = () => {
   }, [department, backendUrl]);
 
   const handleSearch = () => {
-    navigate('/results', { state: { universities } });
+    if (universities.length > 0) {
+      navigate('/results', { state: { universities } });
+    } else {
+      setError('No universities found.');
+    }
   };
+  
 
   const goToAboutUs = () => {
     navigate('/about-us');
