@@ -5,7 +5,8 @@ import os
 
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://universitiesrecommender.netlify.app/"}})
+CORS(app, resources={r"/*": {"origins": ["https://universitiesrecommender.netlify.app", "https://main--universitiesrecommender.netlify.app"]}})
+
 
 
 def load_university_data():
