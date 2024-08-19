@@ -1,4 +1,0 @@
-[build]
-base = "Frontend/new-university-recommendation"
-command = "npm run build"
-publish = "Frontend/new-university-recommendation/build"
